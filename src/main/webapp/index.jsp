@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page import="ru.s7.auth.Logon"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -19,7 +20,7 @@
 
 
 
-<body>
+<body onload="alert('Body OnLoad !!!')">
 <h2>S7 Jasper Report Manager </h2>
 </body>
 </html>
